@@ -1,0 +1,16 @@
+{
+  "name": "pinterest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:firefox": "node_modules/.bin/cypress run --browser firefox",
+    "test:chrome": "node_modules/.bin/cypress run --browser chrome"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@testing-library/cypress": "^8.0.2",
+    "cypress": "^9.5.4"
+  }
+}
